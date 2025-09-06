@@ -1,0 +1,26 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "images/128.png",
+         "16": "images/16.png",
+         "32": "images/32.png",
+         "48": "images/48.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "js/eventPage.js"
+   },
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "images/128.png",
+      "16": "images/16.png",
+      "32": "images/32.png",
+      "48": "images/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqoqic0VlMUqEV+rehn9BlE2Ld0UrIFa/yaX6zsdZTBza4SyhhzDf5PbJlUP8gQL+SWZiOO6U3ztaQc4+0i3H7FWjOvmIQTaVg0mHUodkQiVmdlIXVqYmtZ8MOudN5rJSnCnGFRWkyABHXA0nc44wBUaUXW5hYEhl+OMw7QDRpy2AmV84oomRxBMFrsPyRHUiZuEeQQrU89ZK4Y9TRNJjw/7dKvGvKwqCo268+amq+yFOvLJ3q+/z+DpapH/L9g8qO5SFeBV+G0hNikawQAe8PeqJseXH8LNbKx89ieYATDrk235ZUAnK1V7O5GxMk6lmmqWTMKP2NnA7OUaTPMnBOQIDAQAB",
+   "manifest_version": 3,
+   "name": "서울대학교 도서관 학외접속 Easy Proxy",
+   "permissions": [ "storage", "tabs" ],
+   "version": "4.0.1"
+}
